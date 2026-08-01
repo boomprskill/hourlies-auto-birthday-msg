@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 # SET INFO
 GITHUB_USER = "boomprskill" # Change this into your Github username
-REPO_NAME = "hourlies-happy-birthday-message-schedule" # Change this into your own repository name
+REPO_NAME = "hourlies-auto-birthday-msg" # Change this into your own repository name
 BRANCH = "main" # Usually 'main' or 'master'
 
 # Make Alias for the characters folder
