@@ -3,7 +3,7 @@ import requests
 from datetime import datetime, timedelta
 
 # SET INFO
-GITHUB_USER = "Sanakata" # Change this into your Github username
+GITHUB_USER = "boomprskill" # Change this into your Github username
 REPO_NAME = "hourlies-happy-birthday-message-schedule" # Change this into your own repository name
 BRANCH = "main" # Usually 'main' or 'master'
 
