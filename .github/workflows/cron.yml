@@ -6,6 +6,9 @@ on:
     - cron: '0 23 * * *'
   workflow_dispatch: # Allows you to test it manually anytime
 
+permissions:
+  contents: read
+
 jobs:
   birthday_job:
     runs-on: ubuntu-latest
