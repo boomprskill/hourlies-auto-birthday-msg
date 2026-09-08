@@ -26,7 +26,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python schedule_birthday.py
 
-      - name: Run Keepalive
-        uses: gautamkrishnar/keepalive-workflow@v2
+      - name: Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@2.0.10
         with:
           use_api: true
